@@ -57,3 +57,11 @@ for e in [e1,e2,e3]:
 print("infos initial des voitures")
 for v in [v1,v2]:
     v.afficher_info()
+
+e1.attribuer_voiture(v1)
+e2.attribuer_voiture(v2)
+print("infos apres attributions")
+for e in [e1,e2,e3]:
+    e.afficher_info()
+for v in [v1,v2]:
+    v.afficher_info()
