@@ -42,3 +42,11 @@ class voiture:
         else:
             info += ",pas d,employe attribuee"
         print(info)
+
+e1=employe("hamdaoui","laala")
+e2=employe("bourj","lina")
+e3=employe("boukhalfa","ali")
+
+v1=voiture("toyota","yaris","X50 MPC")
+v2=voiture("renault","clio","y50 oPC")
+v3=voiture("peugeot","207","R65 GEK")
