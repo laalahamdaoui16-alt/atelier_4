@@ -29,3 +29,9 @@ class employe:
             self.voiture= None
         else:
             print(f"{self.nom} {self.prenom} n a pas de voiture a retirer")
+class voiture:
+    def __init__(self,marque,model,imatriculation):
+        self.marque = marque
+        self.model = model
+        self.imatriculation = imatriculation
+        self.employe = None
