@@ -50,3 +50,10 @@ e3=employe("boukhalfa","ali")
 v1=voiture("toyota","yaris","X50 MPC")
 v2=voiture("renault","clio","y50 oPC")
 v3=voiture("peugeot","207","R65 GEK")
+
+print("info initial des employes")
+for e in [e1,e2,e3]:
+    e.afficher_info()
+print("infos initial des voitures")
+for v in [v1,v2]:
+    v.afficher_info()
