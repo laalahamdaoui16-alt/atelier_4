@@ -35,3 +35,10 @@ class voiture:
         self.model = model
         self.imatriculation = imatriculation
         self.employe = None
+    def afficher_info(self):
+        info = f"voiture: {self.marque} {self.model} {self.imatriculation}"
+        if self.employe:
+            info  += (f",attribuee a : {self.employe.nom} {self.employe.prenom}")
+        else:
+            info += ",pas d,employe attribuee"
+        print(info)
