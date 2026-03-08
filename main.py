@@ -65,3 +65,10 @@ for e in [e1,e2,e3]:
     e.afficher_info()
 for v in [v1,v2]:
     v.afficher_info()
+
+e1.retirer_voiture()
+print("infos apres retires voitures")
+for e in [e1,e2,e3]:
+    e.afficher_info()
+for v in [v1,v2]:
+    v.afficher_info()
